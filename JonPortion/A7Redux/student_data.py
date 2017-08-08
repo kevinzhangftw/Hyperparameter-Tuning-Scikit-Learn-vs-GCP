@@ -22,7 +22,4 @@ y = dataset[['Class']].values
 
 X_train, X_test, y_train, y_test = train_test_split(X, y)
 
-y_train = (y_train, )
-y_test = (y_test, )
-
     
